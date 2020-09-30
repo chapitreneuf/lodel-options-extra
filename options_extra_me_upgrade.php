@@ -10,9 +10,9 @@ if (PHP_SAPI != 'cli') die('cli only');  // php-cli only
   
   Execute:
   - cd PATH_TO_ROOT_LODEL_DIRECTORY
-  - php extra_me_upgrade.php mysite # update the site "mysite"
+  - php options_extra_me_upgrade.php mysite # update the site "mysite"
     or
-    php nova_me_upgrade.php all # update all sites (excepted site listed in the array $exclude. See below)
+    php options_extra_me_upgrade.php all # update all sites (excepted site listed in the array $exclude. See below)
   - after execution, this file should be removed from Lodel root directory
  *******************************************************************/
 
