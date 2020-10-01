@@ -2,6 +2,9 @@
 if (PHP_SAPI != 'cli') die('cli only');  // php-cli only
 
 /*******************************************************************
+  lodel-options-extra
+  Version 1.0.0
+
   Description:
   - update OpenEdition Journals editorial model to add extra specific options (required by various Edinum projects)
    
