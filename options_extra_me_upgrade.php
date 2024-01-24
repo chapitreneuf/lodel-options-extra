@@ -50,6 +50,7 @@ while ($siteName = $sites->fetch()) {
 
   $options = [
     'doi_prefixe' => ['title'=>'Préfixe des DOI', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
+    'doi_types' => ['title'=>'Types présentant des DOI (séparés par des virgules)', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => 'article', 'value' => ''],
     'portail_nom' => ['title'=>'Nom du portail', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
     'portail_url' => ['title'=>'URL du portail', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
     'oai_id' => ['title'=>'Identifiant dans le serveur OAI-PMH', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
