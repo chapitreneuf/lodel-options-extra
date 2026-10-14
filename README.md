@@ -1,6 +1,6 @@
 # lodel-options-extra
 
-Ce script de migration pour Lodel ajoute un groupe d'options `extra` au modèle éditorial du site. Les options ajoutées sont utilisées par plusieurs templates et plugins Lodel réalisés par le collectif Edinum.
+Ce script de migration pour Lodel ajoute un groupe d'options `extra` au modèle éditorial du site. Les options ajoutées sont utilisées par plusieurs templates et plugins Lodel réalisés par Chapitre neuf.
 
 ## Installation
 
