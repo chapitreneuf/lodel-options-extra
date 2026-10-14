@@ -55,6 +55,8 @@ while ($siteName = $sites->fetch()) {
     'portail_url' => ['title'=>'URL du portail', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
     'oai_id' => ['title'=>'Identifiant dans le serveur OAI-PMH', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
     'openaire_access_level' => ['title'=>'OpenAIRE Access Level', 'type'=>'list', 'edition'=>'editable', 'editionparams' => 'openAccess, embargoedAccess, restrictedAccess', 'defaultvalue' => 'openAccess', 'value' => 'openAccess'],
+    'matomo_endpoint' => ['title'=>'Matomo API : endpoint', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
+    'matomo_token' => ['title'=>'Matomo API : token', 'type'=>'tinytext', 'edition'=>'editable', 'editionparams' => '', 'defaultvalue' => '', 'value' => ''],
   ];
 
   foreach ($options as $name => $infos) {
